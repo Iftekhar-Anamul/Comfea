@@ -6,32 +6,39 @@
     <title>Comfea</title>
     <!-- link css -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="responsive/home-responsive.css" />
   </head>
   <body>
     <!-- header start -->
-    <header class="container">
+    <header class="container home-header">
       <div class="logo">
-        <img src="assets/logo/Comfea.png" alt="Comprea" />
+        <img src="./assets/logo/Comfea.png" alt="Comprea" />
       </div>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Property</a></li>
-          <li><a href="#">Agent</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">FAQ's</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About us</a></li>
+          <li><a href="./property.html">Property</a></li>
+          <li><a href="./agent.html">Agent</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="faq.html">FAQ's</a></li>
         </ul>
       </nav>
       <div class="btn">
-        <button>Contact Us</button>
+        <button class="btn"><a href="./contact.html">Contact Us</a></button>
       </div>
     </header>
     <!-- header ends -->
     <main>
       <!-- hero section start -->
-      <section id="relative">
+      <section id="relative no-gap">
         <div class="hero">
+          <div class="hero-banner-img">
+            <img
+              src="assets/home-page/hero-img/Hero Image.png"
+              alt="Hero Image"
+            />
+          </div>
           <div class="hero-wrapper container">
             <!-- hero content block -->
             <div class="hero-content-block">
@@ -41,29 +48,31 @@
                   <strong>Here</strong>
                 </h1>
                 <!-- <div class="scroll"> -->
-                <img
-                  src="assets/home-page/hero-img/Scroll Down.png"
-                  alt="scroll down"
-                  class="scroll"
-                />
+                <div class="headline-img">
+                  <img
+                    src="assets/home-page/hero-img/Scroll Down.png"
+                    alt="scroll down"
+                    class="scroll"
+                  />
+                </div>
                 <!-- </div> -->
               </div>
             </div>
             <!-- hero-gallery block -->
             <div class="hero-gallery-block">
-              <div class="img-1">
+              <div class="img-1 h-g-img">
                 <img
                   src="assets/home-page/hero-img/Gallery Image-1.png"
                   alt="Gallery-Image-1"
                 />
               </div>
-              <div class="img-2">
+              <div class="img-2 h-g-img">
                 <img
                   src="assets/home-page/hero-img/Gallery Image-2.png"
                   alt="Gallery Image-2"
                 />
               </div>
-              <div class="img-3">
+              <div class="img-3 h-g-img">
                 <img
                   src="assets/home-page/hero-img/Gallery Image-3.png"
                   alt="Gallery Image-3"
@@ -74,70 +83,977 @@
         </div>
       </section>
       <!-- hero section end -->
-      <!-- about secton start  -->
-      <section>
-        <div class="about container">
-          <div class="about-title">
-            <div class="about-title-left">
-              <h3>Discover Our Commitment to Your Real Estate Success</h3>
-              <button class="btn about-btn">Learn More</button>
+      <!-- container -->
+      <div class="container">
+        <!-- about secton start  -->
+        <section id="sec-gapping">
+          <div class="about">
+            <div class="about-title">
+              <div class="about-title-left">
+                <h3>Discover Our Commitment to Your Real Estate Success</h3>
+                <button class="btn about-btn">Learn More</button>
+              </div>
+              <div class="about-title-right">
+                <p>
+                  We are committed to making your real estate experience smooth,
+                  rewarding, and stress-free. Our team of dedicated
+                  professionals brings years of expertise to the table, helping
+                  you navigate the real estate market with confidence. Whether
+                  you're buying, selling, or renting, we are here to offer
+                  personalized guidance and ensure your goals are met. <br />
+                  <br />
+                  Founded on the principles of trust, transparency, and customer
+                  satisfaction, we pride ourselves on delivering exceptional
+                  service. Our comprehensive knowledge of the local market
+                  allows us to offer a wide range of properties tailored to fit
+                  every lifestyle and budget. From luxury homes to affordable
+                  rentals, we provide our clients with the best options to match
+                  their needs.
+                </p>
+              </div>
             </div>
-            <div class="about-title-right">
-              <p>
-                We are committed to making your real estate experience smooth,
-                rewarding, and stress-free. Our team of dedicated professionals
-                brings years of expertise to the table, helping you navigate the
-                real estate market with confidence. Whether you're buying,
-                selling, or renting, we are here to offer personalized guidance
-                and ensure your goals are met. <br />
-                Founded on the principles of trust, transparency, and customer
-                satisfaction, we pride ourselves on delivering exceptional
-                service. Our comprehensive knowledge of the local market allows
-                us to offer a wide range of properties tailored to fit every
-                lifestyle and budget. From luxury homes to affordable rentals,
-                we provide our clients with the best options to match their
-                needs.
-              </p>
+            <div class="about-services">
+              <!-- 1 -->
+              <div class="about-service-1 about-service">
+                <div class="abt-img-1">
+                  <img
+                    src="assets/home-page/about-img/Property Image.png"
+                    alt="Expert Team"
+                  />
+                </div>
+                <h5 class="heading-7">Expert Team</h5>
+                <p>Our architects and engineers are leaders in the industry</p>
+              </div>
+
+              <!-- 2 -->
+              <div class="about-service-2 about-service">
+                <div class="abt-img-2">
+                  <img
+                    src="assets/home-page/about-img/Property Image-2.png"
+                    alt="Innovative Designs"
+                  />
+                </div>
+                <h5 class="heading-7">Innovative Designs</h5>
+                <p>
+                  We push the boundaries of design to create unique spaces that
+                  inspire and elevate.
+                </p>
+              </div>
+              <!-- 3 -->
+              <div class="about-service-3 about-service">
+                <div class="abt-img-3">
+                  <img
+                    src="assets/home-page/about-img/Property Image-3.png"
+                    alt="Client-Centered"
+                  />
+                </div>
+                <h5 class="heading-7">Client-Centered Approach</h5>
+                <p>
+                  We work closely with you throughout the entire process,
+                  ensuring that your vision is fully realized.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="about-service">
-            <!-- 1 -->
-            <div class="about-service-1 about-service">
-              <img
-                src="assets/home-page/about-img/Property Image.png"
-                alt="Expert Team"
-              />
-              <h5>Expert Team</h5>
-              <p>Our architects and engineers are leaders in the industry</p>
+        </section>
+        <!-- about secton ends -->
+        <!-- property listing start -->
+        <section id="sec-gapping">
+          <div class="propery-listing">
+            <div class="property-title">
+              <div class="property-title-left">
+                <h3>Our Property Listings</h3>
+              </div>
+              <div class="property-title-right">
+                <p>
+                  Discover your dream property from our curated selection of
+                  houses, apartments, and villas. Whether you're looking to buy
+                  or rent, we offer a variety of options to suit your lifestyle
+                  and budget
+                </p>
+              </div>
+            </div>
+            <!-- properties -->
+            <div class="properties">
+              <!-- property-1 -->
+              <div class="property">
+                <div class="property-img">
+                  <img
+                    src="assets/home-page/properties/Property Image-1.png"
+                    alt="Ari Permata"
+                  />
+
+                  <div class="badge">
+                    <div class="type-prt">
+                      <img
+                        src="assets/home-page/properties/badge/home.png"
+                        alt="House"
+                      />
+                      <span>House</span>
+                    </div>
+                    <div class="sale-rent">
+                      <p>For Sale</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="property-info">
+                  <div class="name">
+                    <h6 class="heading-7">Asri Permata</h6>
+                    <div class="prt-location">
+                      <img
+                        src="assets/home-page/properties/icons/location.png"
+                        alt="prt-location"
+                      />
+                      <span class="b-xs">100 High St, London, W1D 1NR</span>
+                    </div>
+                  </div>
+                  <div class="price b-xl">$1,200</div>
+                </div>
+                <hr class="horizontal-hr" />
+                <!-- property-details -->
+                <div class="property-details">
+                  <div class="bathroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bathroom Icon.png"
+                      alt="Bathroom"
+                    />
+                  </div>
+                  <span class="b-m">2 Bathroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="bedroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bedroom Icon.png"
+                      alt="Bedroom"
+                    />
+                  </div>
+                  <span class="b-m">3 Bedroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="sq-ft">
+                    <img
+                      src="assets/home-page/properties/icons/Area Icon.png"
+                      alt="Area"
+                    />
+                  </div>
+                  <span class="b-m">1,300 sq ft</span>
+                </div>
+              </div>
+              <!-- property-2 -->
+              <div class="property">
+                <div class="property-img">
+                  <img
+                    src="assets/home-page/properties/Property Image-2.png"
+                    alt="Riverfront View"
+                  />
+
+                  <div class="badge">
+                    <div class="type-prt">
+                      <img
+                        src="assets/home-page/properties/badge/apartment.png"
+                        alt="Apartment"
+                      />
+                      <span>Apartment</span>
+                    </div>
+                    <div class="sale-rent">
+                      <p>For Rent</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="property-info">
+                  <div class="name">
+                    <h6 class="heading-7">Riverfront View</h6>
+                    <div class="prt-location">
+                      <img
+                        src="assets/home-page/properties/icons/location.png"
+                        alt="prt-location"
+                      />
+                      <span class="b-xs"
+                        >32 Market St, Manchester
+                        <!--M1 1PW-->
+                      </span>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <p class="price b-xl">$1,200</p>
+                    <p class="how b-xs">Per Month</p>
+                  </div>
+                </div>
+                <hr class="horizontal-hr" />
+                <!-- property-details -->
+                <div class="property-details">
+                  <div class="bathroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bathroom Icon.png"
+                      alt="Bathroom"
+                    />
+                  </div>
+                  <span class="b-m">2 Bathroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="bedroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bedroom Icon.png"
+                      alt="Bedroom"
+                    />
+                  </div>
+                  <span class="b-m">3 Bedroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="sq-ft">
+                    <img
+                      src="assets/home-page/properties/icons/Area Icon.png"
+                      alt="Area"
+                    />
+                  </div>
+                  <span class="b-m">1,600 sq ft</span>
+                </div>
+              </div>
+
+              <!-- property-3 -->
+              <div class="property">
+                <div class="property-img">
+                  <img
+                    src="assets/home-page/properties/Property Image-3.png"
+                    alt="Cozy Cottage"
+                  />
+
+                  <div class="badge">
+                    <div class="type-prt">
+                      <img
+                        src="assets/home-page/properties/badge/home.png"
+                        alt="house"
+                      />
+                      <span>House</span>
+                    </div>
+                    <div class="sale-rent">
+                      <p>For Rent</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="property-info">
+                  <div class="name">
+                    <h6 class="heading-7">Cozy Cottage</h6>
+                    <div class="prt-location">
+                      <img
+                        src="assets/home-page/properties/icons/location.png"
+                        alt="prt-location"
+                      />
+                      <span class="b-xs"
+                        >6 Southern St, Manchester
+                        <!--4NJ--></span
+                      >
+                    </div>
+                  </div>
+                  <div class="price">
+                    <p class="price b-xl">$1,200</p>
+                    <p class="how b-xs">Per Month</p>
+                  </div>
+                </div>
+                <hr class="horizontal-hr" />
+                <!-- property-details -->
+                <div class="property-details">
+                  <div class="bathroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bathroom Icon.png"
+                      alt="Bathroom"
+                    />
+                  </div>
+                  <span class="b-m">1 Bathroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="bedroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bedroom Icon.png"
+                      alt="Bedroom"
+                    />
+                  </div>
+                  <span class="b-m">1 Bedroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="sq-ft">
+                    <img
+                      src="assets/home-page/properties/icons/Area Icon.png"
+                      alt="Area"
+                    />
+                  </div>
+                  <span class="b-m">900 sq ft</span>
+                </div>
+              </div>
+              <!-- property-4 -->
+              <div class="property">
+                <div class="property-img">
+                  <img
+                    src="assets/home-page/properties/Property Image-4.png"
+                    alt="Modern Loft"
+                  />
+
+                  <div class="badge">
+                    <div class="type-prt">
+                      <img
+                        src="assets/home-page/properties/badge/villa.png"
+                        alt="villa"
+                      />
+                      <span>Villa</span>
+                    </div>
+                    <div class="sale-rent">
+                      <p>For Sale</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="property-info">
+                  <div class="name">
+                    <h6 class="heading-7">Modern Loft</h6>
+                    <div class="prt-location">
+                      <img
+                        src="assets/home-page/properties/icons/location.png"
+                        alt="prt-location"
+                      />
+                      <span class="b-xs"
+                        >20 St Anns Sq, Manchester
+                        <!--M2 7HG--></span
+                      >
+                    </div>
+                  </div>
+                  <div class="price b-xl">$1,200</div>
+                </div>
+                <hr class="horizontal-hr" />
+                <!-- property-details -->
+                <div class="property-details">
+                  <div class="bathroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bathroom Icon.png"
+                      alt="Bathroom"
+                    />
+                  </div>
+                  <span class="b-m">2 Bathroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="bedroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bedroom Icon.png"
+                      alt="Bedroom"
+                    />
+                  </div>
+                  <span class="b-m">3 Bedroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="sq-ft">
+                    <img
+                      src="assets/home-page/properties/icons/Area Icon.png"
+                      alt="Area"
+                    />
+                  </div>
+                  <span class="b-m">1,500 sq ft</span>
+                </div>
+              </div>
+              <!-- property-5 -->
+              <div class="property">
+                <div class="property-img">
+                  <img
+                    src="assets/home-page/properties/Property Image-5.png"
+                    alt="Beachfront Retreat"
+                  />
+
+                  <div class="badge">
+                    <div class="type-prt">
+                      <img
+                        src="assets/home-page/properties/badge/home.png"
+                        alt="house"
+                      />
+                      <span>House</span>
+                    </div>
+                    <div class="sale-rent">
+                      <p>For Rent</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="property-info">
+                  <div class="name">
+                    <h6 class="heading-7">Beachfront Retreat</h6>
+                    <div class="prt-location">
+                      <img
+                        src="assets/home-page/properties/icons/location.png"
+                        alt="prt-location"
+                      />
+                      <span class="b-xs"
+                        >44-46 John Dalton St, Manchester<!-- M2 6LE--></span
+                      >
+                    </div>
+                  </div>
+                  <div class="price">
+                    <p class="price b-xl">$1,200</p>
+                    <p class="how b-xs">Per Month</p>
+                  </div>
+                </div>
+                <hr class="horizontal-hr" />
+                <!-- property-details -->
+                <div class="property-details">
+                  <div class="bathroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bathroom Icon.png"
+                      alt="Bathroom"
+                    />
+                  </div>
+                  <span class="b-m">2 Bathroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="bedroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bedroom Icon.png"
+                      alt="Bedroom"
+                    />
+                  </div>
+                  <span class="b-m">4 Bedroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="sq-ft">
+                    <img
+                      src="assets/home-page/properties/icons/Area Icon.png"
+                      alt="Area"
+                    />
+                  </div>
+                  <span class="b-m">2,200 sq ft</span>
+                </div>
+              </div>
+              <!-- property-6 -->
+              <div class="property">
+                <div class="property-img">
+                  <img
+                    src="assets/home-page/properties/Property Image-6.png"
+                    alt="Downtown Condo"
+                  />
+
+                  <div class="badge">
+                    <div class="type-prt">
+                      <img
+                        src="assets/home-page/properties/badge/apartment.png"
+                        alt="House"
+                      />
+                      <span>Apartment</span>
+                    </div>
+                    <div class="sale-rent">
+                      <p>For Sale</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="property-info">
+                  <div class="name">
+                    <h6 class="heading-7">Downtown Condo</h6>
+                    <div class="prt-location">
+                      <img
+                        src="assets/home-page/properties/icons/location.png"
+                        alt="prt-location"
+                      />
+                      <span class="b-xs"
+                        >109 Corporation St, Manchester
+                        <!--M4 4DX--></span
+                      >
+                    </div>
+                  </div>
+                  <div class="price b-xl">$1,200</div>
+                </div>
+                <hr class="horizontal-hr" />
+                <!-- property-details -->
+                <div class="property-details">
+                  <div class="bathroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bathroom Icon.png"
+                      alt="Bathroom"
+                    />
+                  </div>
+                  <span class="b-m">1 Bathroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="bedroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bedroom Icon.png"
+                      alt="Bedroom"
+                    />
+                  </div>
+                  <span class="b-m">2 Bedroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="sq-ft">
+                    <img
+                      src="assets/home-page/properties/icons/Area Icon.png"
+                      alt="Area"
+                    />
+                  </div>
+                  <span class="b-m">400 sq ft</span>
+                </div>
+              </div>
+              <!-- property-7 -->
+              <div class="property">
+                <div class="property-img">
+                  <img
+                    src="assets/home-page/properties/Property Image-1.png"
+                    alt="Rustic Cabin"
+                  />
+
+                  <div class="badge">
+                    <div class="type-prt">
+                      <img
+                        src="assets/home-page/properties/badge/apartment.png"
+                        alt="Apartment"
+                      />
+                      <span>House</span>
+                    </div>
+                    <div class="sale-rent">
+                      <p>For Rent</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="property-info">
+                  <div class="name">
+                    <h6 class="heading-7">Rustic Cabin</h6>
+                    <div class="prt-location">
+                      <img
+                        src="assets/home-page/properties/icons/location.png"
+                        alt="prt-location"
+                      />
+                      <span class="b-xs"
+                        >14 St Anns Sq, Manchester
+                        <!--M2 7HQ--></span
+                      >
+                    </div>
+                  </div>
+                  <div class="price b-xl">$1,200</div>
+                </div>
+                <hr class="horizontal-hr" />
+                <!-- property-details -->
+                <div class="property-details">
+                  <div class="bathroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bathroom Icon.png"
+                      alt="Bathroom"
+                    />
+                  </div>
+                  <span class="b-m">2 Bathroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="bedroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bedroom Icon.png"
+                      alt="Bedroom"
+                    />
+                  </div>
+                  <span class="b-m">3 Bedroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="sq-ft">
+                    <img
+                      src="assets/home-page/properties/icons/Area Icon.png"
+                      alt="Area"
+                    />
+                  </div>
+                  <span class="b-m">1,000 sq ft</span>
+                </div>
+              </div>
+              <!-- property-8 -->
+              <div class="property">
+                <div class="property-img">
+                  <img
+                    src="assets/home-page/properties/Property Image-9.png"
+                    alt="Urban Studio"
+                  />
+
+                  <div class="badge">
+                    <div class="type-prt">
+                      <img
+                        src="assets/home-page/properties/badge/villa.png"
+                        alt="Villa"
+                      />
+                      <span>Villa</span>
+                    </div>
+                    <div class="sale-rent">
+                      <p>For Sale</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="property-info">
+                  <div class="name">
+                    <h6 class="heading-7">Urban Studio</h6>
+                    <div class="prt-location">
+                      <img
+                        src="assets/home-page/properties/icons/location.png"
+                        alt="prt-location"
+                      />
+                      <span class="b-xs"
+                        >10a Ashfield Rd, Cheadle
+                        <!--SK8 1BB--></span
+                      >
+                    </div>
+                  </div>
+                  <div class="price b-xl">$1,200</div>
+                </div>
+                <hr class="horizontal-hr" />
+                <!-- property-details -->
+                <div class="property-details">
+                  <div class="bathroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bathroom Icon.png"
+                      alt="Bathroom"
+                    />
+                  </div>
+                  <span class="b-m">1 Bathroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="bedroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bedroom Icon.png"
+                      alt="Bedroom"
+                    />
+                  </div>
+                  <span class="b-m">1 Bedroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="sq-ft">
+                    <img
+                      src="assets/home-page/properties/icons/Area Icon.png"
+                      alt="Area"
+                    />
+                  </div>
+                  <span class="b-m">700 sq ft</span>
+                </div>
+              </div>
+              <!-- property-9 -->
+              <div class="property">
+                <div class="property-img">
+                  <img
+                    src="assets/home-page/properties/Property Image-1.png"
+                    alt="Ari Permata"
+                  />
+
+                  <div class="badge">
+                    <div class="type-prt">
+                      <img
+                        src="assets/home-page/properties/badge/home.png"
+                        alt="House"
+                      />
+                      <span>House</span>
+                    </div>
+                    <div class="sale-rent">
+                      <p>For Sale</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="property-info">
+                  <div class="name">
+                    <h6 class="heading-7">Asri Permata</h6>
+                    <div class="prt-location">
+                      <img
+                        src="assets/home-page/properties/icons/location.png"
+                        alt="prt-location"
+                      />
+                      <span class="b-xs"
+                        >100 High St, London,
+                        <!--W1D 1NR--></span
+                      >
+                    </div>
+                  </div>
+                  <div class="price b-xl">$1,200</div>
+                </div>
+                <hr class="horizontal-hr" />
+                <!-- property-details -->
+                <div class="property-details">
+                  <div class="bathroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bathroom Icon.png"
+                      alt="Bathroom"
+                    />
+                  </div>
+                  <span class="b-m">2 Bathroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="bedroom">
+                    <img
+                      src="assets/home-page/properties/icons/Bedroom Icon.png"
+                      alt="Bedroom"
+                    />
+                  </div>
+                  <span class="b-m">3 Bedroom</span>
+                  <hr class="vertical-hr" />
+                  <div class="sq-ft">
+                    <img
+                      src="assets/home-page/properties/icons/Area Icon.png"
+                      alt="Area"
+                    />
+                  </div>
+                  <span class="b-m">1,300 sq ft</span>
+                </div>
+              </div>
+              <!-- property 9 end here -->
+            </div>
+            <!-- property-view more btn or button -->
+            <div class="view-more-btn">
+              <button class="view-more btn">View More</button>
             </div>
           </div>
-          <!-- 2 -->
-          <div class="about-service-2 about-service">
-            <img
-              src="assets/home-page/about-img/Property Image-2.png"
-              alt="Innovative Designs"
-            />
-            <h5>Innovative Designs</h5>
-            <p>
-              We push the boundaries of design to create unique spaces that
-              inspire and elevate.
-            </p>
-            <!-- 3 -->
-            <div class="about-service-3 about-service">
-              <img
-                src="assets/home-page/about-img/Property Image-3.png"
-                alt="Client-Centered"
-              />
-              <h5>Client-Centered Approach</h5>
-              <p>
-                We work closely with you throughout the entire process, ensuring
-                that your vision is fully realized.
+        </section>
+        <!-- property listing ends -->
+
+        <!-- faq-sectin-s -->
+        <section id="sec-gapping">
+          <div class="faq-section">
+            <div class="faq-left">
+              <div class="left-top">
+                <h3>Frequently Asked Questions</h3>
+                <p class="b-xl">
+                  At our real estate agency, we understand that buying or
+                  selling a home can be a daunting process. That&apos;s why
+                  we&apos;ve compiled a list of frequently asked questions to
+                  help guide you through your journey.
+                </p>
+              </div>
+              <div class="left-bottom-img">
+                <img
+                  src="assets/home-page/faq-img/FAQ Image.png"
+                  alt="Frequently Asked Questions"
+                />
+              </div>
+            </div>
+            <div class="faq-right-questions">
+              <!-- question-1 -->
+              <div class="question">
+                <p class="b-l">
+                  How do I start the process of buying a property?
+                </p>
+                <div class="minimize">
+                  <img
+                    src="assets/home-page/faq-img/minus.png"
+                    alt="minus-or-minimiz"
+                  />
+                </div>
+              </div>
+              <!-- question-2 -->
+              <div class="question">
+                <p class="b-l">What should I look for when buying a home?</p>
+                <div class="minimize">
+                  <img
+                    src="assets/home-page/faq-img/minus.png"
+                    alt="minimize"
+                  />
+                </div>
+              </div>
+              <!-- question-3 -->
+              <div class="question">
+                <p class="b-l">How much do I need for a down payment?</p>
+                <div class="minimize">
+                  <img
+                    src="assets/home-page/faq-img/minus.png"
+                    alt="minimize"
+                  />
+                </div>
+              </div>
+              <!-- hover -->
+              <!-- question-4 -->
+              <div class="accordion-design">
+                <div class="hover-question">
+                  <p class="b-l question-4">
+                    Can I get help with selling my property?
+                  </p>
+
+                  <div class="minimize">
+                    <img src="assets/home-page/faq-img/add.png" alt="add" />
+                  </div>
+                </div>
+                <div class="accordion">
+                  <p class="b-m">
+                    Absolutely! Our team will help you with every aspect of
+                    selling your property, including pricing, marketing, and
+                    negotiating with buyers. We&apos;ll guide you through the
+                    process to ensure a smooth sale.
+                  </p>
+                </div>
+              </div>
+              <!-- queastion-5 -->
+              <div class="question">
+                <p class="b-l">Do you offer property management services?</p>
+                <div class="minimize">
+                  <img
+                    src="assets/home-page/faq-img/minus.png"
+                    alt="Minimize"
+                  />
+                </div>
+              </div>
+              <!-- queastion-7 -->
+              <div class="question">
+                <p class="b-l">
+                  How can I find out if I&apos;m eligible for a mortgage?
+                </p>
+                <div class="minimize">
+                  <img
+                    src="assets/home-page/faq-img/minus.png"
+                    alt="Minimize"
+                  />
+                </div>
+              </div>
+              <!-- queastion-8 -->
+              <div class="question">
+                <p class="b-l">
+                  What type of properties does your agency specialize in?
+                </p>
+                <div class="minimize">
+                  <img
+                    src="assets/home-page/faq-img/minus.png"
+                    alt="Minimize"
+                  />
+                </div>
+              </div>
+
+              <!-- question end -->
+            </div>
+          </div>
+        </section>
+        <!-- faq-section-e -->
+        <section id="sec-gapping">
+          <div class="blog-section">
+            <div class="blog-title">
+              <div class="title-left">
+                <h3>Real Estate Tips & Insights</h3>
+              </div>
+              <div class="title-right">
+                <p cla="b-l">
+                  Explore expert advice and creative ideas to enhance your
+                  living spaces. From modern kitchen designs to cozy bedroom
+                  décor and innovative lighting concepts
+                </p>
+              </div>
+            </div>
+            <div class="blogs">
+              <!-- blog-1 -->
+              <div class="blog">
+                <div class="blog-img">
+                  <img
+                    src="assets/home-page/blog-img/Image-1.png"
+                    alt="blog-1-image"
+                  />
+                </div>
+                <div class="date-time">
+                  <div class="date">
+                    <p>May 16, 2024</p>
+                  </div>
+                  <div class="time">
+                    <img
+                      src="assets/home-page/blog-img/icon/Clock.png"
+                      alt="Clock"
+                    />
+                    <span>12 min reading time</span>
+                  </div>
+                </div>
+                <div class="title">
+                  <h6 class="heading-7">
+                    8 Cool Type 36 Open Kitchen Design Ideas
+                  </h6>
+                </div>
+              </div>
+              <!-- blog-2 -->
+              <div class="blog">
+                <div class="blog-img">
+                  <img
+                    src="assets/home-page/blog-img/Image-2.png"
+                    alt="blog-2-image"
+                  />
+                </div>
+                <div class="date-time">
+                  <div class="date">
+                    <p>May 16, 2024</p>
+                  </div>
+                  <div class="time">
+                    <img
+                      src="assets/home-page/blog-img/icon/Clock.png"
+                      alt="Clock"
+                    />
+                    <span>12 min reading time</span>
+                  </div>
+                </div>
+                <div class="title">
+                  <h6 class="heading-7">
+                    7 Unique Living Room Lighting Concepts
+                  </h6>
+                </div>
+              </div>
+              <!-- blog-3 -->
+              <div class="blog">
+                <div class="blog-img">
+                  <img
+                    src="assets/home-page/blog-img/Image-3.png"
+                    alt="blog-3-image"
+                  />
+                </div>
+                <div class="date-time">
+                  <div class="date">
+                    <p>May 16, 2024</p>
+                  </div>
+                  <div class="time">
+                    <img
+                      src="assets/home-page/blog-img/icon/Clock.png"
+                      alt="Clock"
+                    />
+                    <span>12 min reading time</span>
+                  </div>
+                </div>
+                <div class="title">
+                  <h6 class="heading-7">6 Inspiring Bedroom Decor Themes</h6>
+                </div>
+              </div>
+              <!-- blog-3 ends here -->
+            </div>
+            <div class="blog-icons">
+              <div class="left">
+                <img
+                  src="assets/home-page/blog-img/icon/Ellipse 1.png"
+                  alt=""
+                />
+                <img
+                  src="assets/home-page/blog-img/icon/Ellipse 2.png"
+                  alt=""
+                />
+                <img
+                  src="assets/home-page/blog-img/icon/Ellipse 2.png"
+                  alt=""
+                />
+                <img
+                  src="assets/home-page/blog-img/icon/Ellipse 2.png"
+                  alt=""
+                />
+              </div>
+              <div class="right">
+                <img
+                  src="assets/home-page/blog-img/icon/arrow-left.png"
+                  alt=""
+                />
+                <img
+                  src="assets/home-page/blog-img/icon/arrow-right.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- container -->
+      </div>
+      <!-- container -->
+      <!-- contact section s -->
+
+      <section id="sec-gapping contact">
+        <div class="contact-section">
+          <img
+            src="assets/home-page/contact/contact.jpeg"
+            alt=""
+            class="contact-img"
+          />
+          <div class="container contact-container">
+            <div class="left">
+              <h2>Need a help to find your comfort home?</h2>
+              <p class="b-xl contact-left-p">
+                Don’t hesitate to get in touch with us and begin your journey to
+                owning your dream home. We’re here to guide you every step of
+                the way!
               </p>
+            </div>
+            <div class="right">
+              <form class="bg-color">
+                <label for="">Full Name</label>
+                <label for="">Email*</label>
+                <label for="">Password*</label>
+                <textarea
+                  name=""
+                  id=""
+                  placeholder="Leave us a message..."
+                ></textarea>
+                <button class="btn contact-btn">Send</button>
+              </form>
             </div>
           </div>
         </div>
       </section>
-      <!-- about secton ends -->
+
+      <!-- contact section e -->
     </main>
     <!-- footer start -->
     <footer></footer>
