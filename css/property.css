@@ -1,0 +1,13 @@
+.upper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+.upper-heading {
+  width: 583px;
+  font-weight: 400;
+}
+.upper-text {
+  width: 550px;
+}

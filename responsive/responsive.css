@@ -1,0 +1,42 @@
+/* Home page */
+/* home page max-widht: 1280px */
+@media only screen and (max-width: 1280px) {
+  header {
+    max-width: 900px;
+  }
+}
+
+/* about page  */
+/* about page max-width : 1280 */
+@media only screen and (max-width: 1280px) {
+  .container {
+    /* max-width: 1024px; */
+    padding: 0 50px;
+  }
+  header {
+    /* background-color: red; */
+    max-width: 100%;
+    /* padding: 0; */
+  }
+  /* .banner-img {
+    max-width: 1080px;
+  } */
+  .banner-img img {
+    width: 100%;
+  }
+  .trust .bottom {
+    gap: 28px;
+  }
+  .trust .bottom img {
+    width: 160px;
+    height: auto;
+  }
+  .testimonial-left {
+    max-width: 50%;
+  }
+
+  .faq-right-questions .question {
+    padding: 10px !important;
+    margin-bottom: 1% !important;
+  }
+}
