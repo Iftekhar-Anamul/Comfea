@@ -1,0 +1,129 @@
+.rec-b-left-text .mobile-h6,
+.rec-b-left-text .mobile-p {
+  display: none;
+}
+
+/* recent-blog */
+
+.recent-blog {
+  display: flex;
+  gap: 35px;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.rec-b-left {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.rec-b-left .rec-b-left-img > img {
+  width: 370px;
+}
+.rec-b-left .rec-b-left-text {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.recent-blog .rec-b-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.rec-b-right .rec-blog {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--grey);
+}
+.rec-b-right .rec-blog .rec-blog-img > img {
+  width: 132px;
+}
+.rec-blog .rec-blog-content {
+  max-width: 215px;
+}
+.rec-b-right .rec-blog .post-title {
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* blog section start here */
+.blog-section-of-page {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.blog-upper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+}
+.blog-upper .title-right .blog-upper-p {
+  width: 699px;
+}
+.blog > .title {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.blog > .title > p {
+  color: var(--grey);
+}
+
+/* contact */
+
+.blog-contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px !important;
+  align-items: center;
+}
+.blog-contact-main-img {
+  width: 1400px;
+  height: 498px;
+  margin: 0 auto;
+}
+.blog-contact-main-img img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+.contact-container .top {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.contact-container > .top > h2 {
+  color: var(--light-white);
+  width: 800px;
+}
+.bottom {
+  width: 504px;
+  position: relative;
+}
+.bottom form > input {
+  width: 504px;
+  padding: 18px 16px;
+  border-radius: 12px;
+  border: none;
+}
+.bottom form .form-button > input {
+  width: 120px;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 10px 23px;
+  border-radius: 12px;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 8px;
+}
+
+.contact-section {
+  display: none;
+}

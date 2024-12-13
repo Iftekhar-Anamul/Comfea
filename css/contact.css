@@ -1,3 +1,151 @@
 .text {
   color: red;
 }
+.contact-sec-of-page {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+.contact-sec-of-page .title-of-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.contact-form-and-content {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.contact-field {
+  width: 612px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.name {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.name > input {
+  width: 50%;
+}
+input {
+  border: none;
+  padding: 20px 0;
+}
+
+input::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--black);
+}
+
+.email {
+  height: 78px;
+}
+.phone,
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.number-with-coutry-code {
+  border: 2px solid rgb(211, 207, 207);
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+/* .number-with-coutry-code select > option {
+  padding: 10px;
+} */
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.message > textarea {
+  width: 612px;
+  height: 204px;
+}
+.message > textarea::placeholder {
+  font-size: 16px;
+  padding: 12px 14px;
+}
+.privacy-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.privacy-checkbox > p {
+  color: var(--grey);
+}
+.send-message-btn > button {
+  width: 100%;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/* contact info */
+
+.contact-info {
+  width: 612px;
+  height: 367px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
+  grid-column-gap: 24px;
+  grid-row-gap: 48px;
+}
+
+.contact-item {
+  width: 294px;
+  height: 144px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.contact-item .font-500 {
+  font-weight: 500;
+}
+.contact-item .cont-img img {
+  height: 32px;
+  width: 32px;
+}
+.contact-item .title-and-p {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.contact-item .title-and-p .var-grey {
+  color: var(--grey);
+}
+.contact-item .title-and-p .con-title {
+  font-weight: 700;
+  color: var(--black);
+}
+
+input {
+  border: 1px solid transparent;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Change border color on focus */
+input:focus {
+  border-color: var(--grey);
+  outline: none; /* Removes default outline */
+}
+
+/* Change border color on hover */
+input:hover {
+  border-color: rgb(219, 153, 153);
+}

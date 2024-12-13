@@ -11,3 +11,107 @@
 .upper-text {
   width: 550px;
 }
+.search-dream-property {
+  padding: 16px;
+  border: 2px solid #e4e4e7;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 56px 0;
+}
+.property-left {
+}
+.property-left .button {
+  padding: 12px;
+  border: 2px solid #e4e4e7;
+  border-radius: 12px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+.property-left .button .sell {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 10px 75px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+.property-left .button .rent {
+  color: var(--black);
+  padding: 10px 75px;
+  border: none;
+  background-color: #fff;
+  font-weight: 500;
+}
+/* category */
+.category,
+.location {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+/* price range */
+/* .price-range {
+} */
+.text-range {
+  font-weight: 500;
+}
+.price-range-img {
+  margin: 16px 0 8px 0;
+  width: 353px;
+}
+.price-range-img img {
+  width: 100%;
+}
+.price-amount {
+  max-width: 376px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+.price-amount .price-min,
+.price-max {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.special-p {
+  color: #a0a0ab;
+}
+.price-min,
+.price-max:last-child {
+  font-weight: 700;
+}
+
+/* properties */
+
+.property-page-section {
+  display: flex;
+  gap: 40px;
+}
+
+/* property-right */
+
+.property-right {
+  width: 864px;
+}
+.property-page-properties {
+  grid-template-columns: repeat(2, 1fr) !important;
+  /* grid-template-rows: repeat(3, 1fr); */
+}
+/* .property {
+  width: 300px;
+}
+.property-page-img {
+  width: 300px;
+} */
+
+/* .property .property-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-between;
+} */
